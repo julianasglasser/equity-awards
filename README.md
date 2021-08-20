@@ -6,6 +6,8 @@ I chose to use React as it's the framework I have the most proficiency with. Sin
 
 I assumed `"The numbers should show only significant digits"` meant only removing the trailing zeros.
 
+As for the tests, I did only a few as an example, but I would definetelly have done more if there weren't time constraints.
+
 The project was created using a CLI called `create-react-app` in order to ease the set up and save some time.
 
 ## Set up
