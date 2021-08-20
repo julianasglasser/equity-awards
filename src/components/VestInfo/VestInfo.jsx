@@ -38,4 +38,4 @@ export default function VestInfo({ props }) {
             </table>
         </div>
     );
-  }
+}
