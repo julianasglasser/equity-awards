@@ -49,3 +49,6 @@ And like this in your phone:
 
 ![telegram-cloud-photo-size-1-4972419536095652252-x](https://user-images.githubusercontent.com/36934206/130302790-a1e10240-497e-4ade-ae62-cc9711f23cf6.jpg)
 
+## License
+
+This project uses MIT License.
