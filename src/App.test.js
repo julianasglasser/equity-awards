@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders table header', () => {
+test('renders App', () => {
   render(<App />);
-  const headerElement = screen.getByText(/Vesting Date/i);
-  expect(headerElement).toBeInTheDocument();
+  const appTestId = screen.getByTestId('app');
+  expect(appTestId).toBeInTheDocument();
 });

@@ -4,7 +4,7 @@ import VestNav from './components/VestNav/VestNav';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" data-testid="app">
       <VestNav data={MOCK_API_RESPONSE} />
     </div>
   );
