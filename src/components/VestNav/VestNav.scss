@@ -1,0 +1,5 @@
+@use './../../app';
+
+body {
+  font: 100% app.$font-stack;
+}

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './vestNav.scss';
 import VestInfo from '../VestInfo';
 
 export default function VestNav({ data }) {
