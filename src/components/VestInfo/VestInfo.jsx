@@ -30,8 +30,8 @@ export default function VestInfo({ props }) {
                     </tr>
                 </thead>
                 <tbody>
-                    {props.vesting_schedule.map((schedule) => (
-                        <tr>
+                    {props.vesting_schedule.map((schedule, index) => (
+                        <tr key={index}>
                             <td>{formatDate(schedule.vesting_date)}</td>
                             <td>{formatAmount(schedule.amount)}</td>
                             <td>{formatAmount(schedule.cumulative_amount)}</td>
