@@ -11,9 +11,11 @@ const formatDate = (targetDate) => {
 const formatAmount = (amount) => {
     // For simplicity, I just removed the trailing zeros.
     // I also could have used toFixed(0) to remove all decimals, but
-    // I understood from the doc it would be better to have a decimal
-    // point when needed.
-    const amountWithoutTrailingZeros = Number.parseFloat(amount.toString());
+    // I understood from the document it would be better to have
+    // a decimal point when needed.
+    const amountWithoutTrailingZeros = Number.parseFloat(amount.replace(/(((?<=(\.|,)\d*?[1-9])0+$)|(\.|,)0+)/i));
+    // Could have done using toString also
+    // const amountWithoutTrailingZeros = Number.parseFloat(amount.toString());
     return amountWithoutTrailingZeros.toLocaleString('en-US');
 }
 
