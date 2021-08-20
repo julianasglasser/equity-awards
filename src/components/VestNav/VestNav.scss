@@ -20,7 +20,7 @@ div.vestNav {
     border-bottom: 2px solid black;
     flex: 1;
   }
-  
+
   button {
     border: none;
     background-color: app.$secondary-color;
@@ -33,11 +33,10 @@ div.vestNav {
     &:hover {
       opacity: 0.8;
       cursor: pointer;
-  }
+    }
 
     &.active {
       background-color: app.$primary-color;
     }
   }
-
 }
