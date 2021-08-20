@@ -1,10 +1,14 @@
 # Equity Awards Carta (Take Home)
 
-This project is solution to Carta's take home exercise, which was building a standalone frontend app to render information about equity awards.
+This project is a solution to Carta's take home exercise, which was building a standalone frontend app to render information about equity awards.
 
-I chose to use React as it's the framework I have the most proficiency with. Since I have never used Typescript profissionally before, I chose not to use it in this project, but I certainly would if there were not time constraints.
+I chose to use React as it's the framework I have the most proficiency with. Since I have never used TypeScript professionally before, I chose not to use it in this project, but I certainly would if there were not time constraints.
 
 The project was created using a CLI called `create-react-app` in order to ease the set up and save some time.
+
+## Set up
+
+Before running you should make sure you have `Node.js` and `npm` installed. [Here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) is how.
 
 ## Available Scripts
 
@@ -27,8 +31,3 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
