@@ -1,4 +1,4 @@
-# Equity Awards Carta (Take Home)
+# Equity Awards (Carta Take Home)
 
 This project is a solution to Carta's take home exercise, which was building a standalone frontend app to render information about equity awards.
 
