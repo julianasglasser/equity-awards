@@ -4,12 +4,15 @@ import { parse, format } from 'date-fns';
 
 const formatDate = (targetDate) => {
     const parsedDate = parse(targetDate, 'P', new Date());
-    const formatedDate = format(parsedDate, "MMMM d yyyy");
-    return formatedDate;
+    const formattedDate = format(parsedDate, "MMMM d yyyy");
+    return formattedDate;
 }
 
 const formatAmount = (amount) => {
-    // for simplicity, I just removed the trailing zeros
+    // For simplicity, I just removed the trailing zeros.
+    // I also could have used toFixed(0) to remove all decimals, but
+    // I understood from the doc it would be better to have a decimal
+    // point when needed.
     const amountWithoutTrailingZeros = Number.parseFloat(amount.toString());
     return amountWithoutTrailingZeros.toLocaleString('en-US');
 }
