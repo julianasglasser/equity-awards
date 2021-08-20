@@ -4,6 +4,8 @@ This project is a solution to Carta's take home exercise, which was building a s
 
 I chose to use React as it's the framework I have the most proficiency with. Since I have never used TypeScript professionally before, I chose not to use it in this project, but I certainly would if there were not time constraints.
 
+I assumed the data would already be sorted by date on the API response.
+
 The project was created using a CLI called `create-react-app` in order to ease the set up and save some time.
 
 ## Set up
