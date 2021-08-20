@@ -6,7 +6,15 @@ $white: #fff;
 
 .App {
   color: $secondary-color;
-  width: 60%;
+  margin: auto;
+  padding: 0 200px;
+
+  @media (max-width: 970px) {
+    padding: 50px;
+  }
+
+  @media (max-width: 500px) {
+    padding: 0;
+    font-size: 0.8rem;
+  }
 }
-
-
