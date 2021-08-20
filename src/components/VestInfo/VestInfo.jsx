@@ -1,4 +1,5 @@
 import React from 'react';
+import './vestInfo.scss';
 import { parse, format } from 'date-fns';
 
 const formatDate = (targetDate) => {
@@ -15,9 +16,9 @@ const formatAmount = (amount) => {
 
 export default function VestInfo({ props }) {
     return (
-        <div>
-            <p>{props.vesting_manager_name}</p>
-            <table>
+        <div className="vestInfo">
+            <p className="vestInfo__name">{props.vesting_manager_name}</p>
+            <table className="vestInfo__table">
                 <thead>
                     <tr>
                         <th>Vesting Date</th>

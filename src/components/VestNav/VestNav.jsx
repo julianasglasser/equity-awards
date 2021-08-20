@@ -10,11 +10,16 @@ export default function VestNav({ data }) {
     };
 
     return (
-        <div>
+        <div className="vestNav">
             <ul>
                 {data.map((vest, index) => (
-                <li key={index} className={Number(state.active) === index ? 'active' : 'inactive'}>
-                    <button id={index} onClick={changeState} type="button">
+                <li key={index}>
+                    <button 
+                        className={Number(state.active) === index ? 'active' : 'inactive'}
+                        id={index}
+                        onClick={changeState}
+                        type="button"
+                        >
                         {vest.label}
                     </button>
                 </li>
